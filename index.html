@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon-logo.png"
+      type="image/x-icon"
+    />
+    <title>Personal Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/80e4319211.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">RZ<span>.</span></a>
+      <nav>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+          <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#service" onclick="toggleMenu();">Service</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu();">Portfolio</a></li>
+          <li>
+            <a href="#testimonial" onclick="toggleMenu();">Testimonial</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- hero section -->
+      <section id="home">
+        <div class="hero">
+          <div class="hero-content">
+            <h1 class="hero-header">
+              Hey, I'm Riza, a <br />
+              Creative UI/UX Designer <br />
+              and Developer
+            </h1>
+            <div class="hero-skills">
+              <h4><span class="hero-icon"></span>Designer</h4>
+              <h4><span class="hero-icon"></span>Figma</h4>
+              <h4><span class="hero-icon"></span>Developer</h4>
+            </div>
+            <div>
+              <a href="#" class="btn btn-primary">Let's Talk</a>
+            </div>
+          </div>
+          <aside class="hero-image">
+            <img src="./assets/img/illustration-man.png" alt="" />
+          </aside>
+        </div>
+      </section>
+
+      <!-- skill -->
+      <div id="skills">
+        <div class="skills-list">
+          <div class="skill-item">
+            <i class="fa-solid fa-star-of-life skill-icon"></i>
+            <h3>UI/UX</h3>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-star-of-life skill-icon"></i>
+            <h3>Development</h3>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-star-of-life skill-icon"></i>
+            <h3>Product Design</h3>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-star-of-life skill-icon"></i>
+            <h3>Social Media Design</h3>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-star-of-life skill-icon"></i>
+            <h3>Branding</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- service section -->
+      <section id="service">
+        <div class="container min-vh-100">
+          <div class="section-header">
+            <h2>Services.</h2>
+            <p>Here are the services we are providing to you</p>
+          </div>
+          <div class="services-list">
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              UI/UX Designing
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              App UI/UX
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              Web Development
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              Graphic Designing
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              Product Designing
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-globe card-icon"></i>
+              Social Media Post
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section -->
+      <section id="portfolio" class="container min-vh-100">
+        <div class="section-header">
+          <h2>Portfolio.</h2>
+          <p>Click on the card to see my portfolios of related category</p>
+        </div>
+        <div class="portfolio-list">
+          <div class="portfolio-card">
+            <i class="fa-solid fa-layer-group portfolio-icon"></i>
+            <h4>UI/UX Designing</h4>
+            <article>
+              We provide stunning design for UI/UX project. We can handle any
+              project related to landing page designs, e-commerce designs,
+              portfolio website design, business websites, and many more as per
+              your requirements.
+            </article>
+          </div>
+          <div class="portfolio-card">
+            <i class="fa-solid fa-bezier-curve portfolio-icon"></i>
+            <h4>Graphic Designing</h4>
+            <article>
+              We provide stunning amazing and professional Graphic Assets for
+              your project such as social media post designs, logo designs
+              business card designs, poster designs, youtube and blogs thumbnail
+              designs, product label designs, and many more categories as per
+              per your requirements.
+            </article>
+          </div>
+          <div class="portfolio-card">
+            <i class="fa-solid fa-code portfolio-icon"></i>
+            <h4>Web Development</h4>
+            <article>
+              After designing the web apps or sites we also offer the services
+              of the web development for any kind of the website such as
+              business landing pages, product related website development we can
+              handle all the projects.
+            </article>
+          </div>
+          <div class="portfolio-card">
+            <i class="fa-brands fa-square-instagram portfolio-icon"></i>
+            <h4>Social Media Post Designing</h4>
+            <article>
+              Social media post designs are very important if you have a
+              business and want to promote your business on social media, we are
+              also providing the service of designing your sociail media posts
+              for your business.
+            </article>
+          </div>
+          <div class="portfolio-card">
+            <i class="fa-solid fa-mobile-screen portfolio-icon"></i>
+            <h4>Mobile App UI/UX</h4>
+            <article>
+              With the service of web design and development, we are also
+              offering the service of mobile apps UI/UX designs if you are
+              looking for someone who can create the layout and pages of your
+              mobile app professionally we are here to handle this kind of
+              project.
+            </article>
+          </div>
+          <div class="portfolio-card">
+            <i class="fa-solid fa-pen-to-square portfolio-icon"></i>
+            <h4>Want your stunning designs</h4>
+            <article>
+              If you want any kind of the listed services you can simply send us
+              an email or leave a message on any social media platform
+            </article>
+            <a href="#" class="btn btn-sm btn-dark">Let's talk</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial section -->
+      <section id="testimonial" class="container min-vh-100">
+        <div class="section-header">
+          <h2>Testimonials.</h2>
+          <p>Here are some testimonials from our clients</p>
+        </div>
+        <div class="testimonial-list">
+          <div class="testimonial-card">
+            <blockquote>
+              <span>"</span>
+              Working with this team has been an absolute pleasure. Their
+              creativity and dedication are unparalleled. I couldn't be happier
+              with the results.
+              <span>"</span>
+            </blockquote>
+            <h4 class="testimonial-author">Riza</h4>
+          </div>
+          <div class="testimonial-card">
+            <blockquote>
+              <span>"</span>
+              Their attention to detail and professionalism are evident in every
+              aspect of their work. I highly recommend their services.
+              <span>"</span>
+            </blockquote>
+            <h4 class="testimonial-author">Deny</h4>
+          </div>
+          <div class="testimonial-card">
+            <blockquote>
+              <span>"</span>
+              The project was completed on time and exceeded my expectations.
+              The team was responsive and communicated clearly throughout the
+              process.
+              <span>"</span>
+            </blockquote>
+            <h4 class="testimonial-author">Andry</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2024. All Right Reserved</p>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
